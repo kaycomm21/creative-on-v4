@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>큐를 찾을 수 없습니다 | Creative ON</title>
+  <meta name="robots" content="noindex">
+  <meta name="theme-color" content="#0b0b0c">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/packages/pretendard/dist/web/static/pretendard-subset.min.css" crossorigin>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    html, body { height: 100%; }
+    body {
+      font-family: "Pretendard", -apple-system, BlinkMacSystemFont, system-ui, "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      background: #0b0b0c;
+      color: #f4f2ee;
+      display: grid;
+      place-items: center;
+      padding: 24px;
+      line-height: 1.6;
+      word-break: keep-all;
+    }
+    .nf {
+      max-width: 560px;
+      width: 100%;
+      background: #121214;
+      border: 1px solid rgba(255,255,255,.12);
+      border-radius: 24px;
+      padding: clamp(28px, 5vw, 52px);
+    }
+    .nf__badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-family: ui-monospace, "SF Mono", Consolas, monospace;
+      font-size: 12px;
+      letter-spacing: .12em;
+      color: #ff5c33;
+      margin-bottom: 20px;
+    }
+    .nf__dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: #ff5c33;
+    }
+    h1 {
+      font-size: clamp(28px, 5vw, 44px);
+      font-weight: 800;
+      line-height: 1.2;
+      letter-spacing: -0.04em;
+    }
+    p {
+      margin-top: 16px;
+      color: rgba(244,242,238,.78);
+      font-size: 16px;
+    }
+    .nf__actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 32px;
+    }
+    a {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      min-height: 48px;
+      padding: 0 24px;
+      border-radius: 100px;
+      font-weight: 650;
+      font-size: 15px;
+      text-decoration: none;
+    }
+    .btn-home { background: #f4f2ee; color: #0b0b0c; }
+    .btn-contact { border: 1px solid rgba(255,255,255,.28); color: #f4f2ee; }
+    a:focus-visible { outline: 2px solid #ff5c33; outline-offset: 3px; }
+  </style>
+</head>
+<body>
+  <main class="nf">
+    <p class="nf__badge"><span class="nf__dot" aria-hidden="true"></span>CUE 404 · STANDBY</p>
+    <h1>이 큐는 큐시트에 없습니다.</h1>
+    <p>주소가 바뀌었거나 삭제된 페이지입니다. 첫 화면으로 돌아가 현장 기록과 일하는 순서를 다시 확인해 주세요.</p>
+    <div class="nf__actions">
+      <a class="btn-home" href="./">첫 화면으로 돌아가기</a>
+      <a class="btn-contact" href="./#contact">행사 문의하기</a>
+    </div>
+  </main>
+</body>
+</html>

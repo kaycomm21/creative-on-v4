@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kaycomm21.github.io/creative-on-v4/sitemap.xml
